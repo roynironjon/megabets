@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Roboto";
+}
+.top-header{
+    background: #2a2a40;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #fdb347;
+    box-shadow: 0 5px 10px 0 #aaa;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.top-header .navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.top-header .navbar .logo-column{
+    width: 30%;
+    margin-right: 10%;
+    text-align: left;
+}
+.top-header .navbar .logo-column img{
+    width: 185px;
+}
+.top-header .navbar .menu-bar{
+    width: 60%;
+    text-align: right;
+}
+.top-header .navbar .menu-bar ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    margin-left: 1.5rem;
+}
+.top-header .navbar .menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: .4s ease-in-out;
+}
+.top-header .navbar .menu-bar ul li a:hover{
+    color: #15a4fa;
+}
+.top-header .navbar .menu-bar #menu{
+    z-index: 999999;
+}
+.slicknav_menu{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: none;
+}
+/* top header section end */
+
+.about-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f6f9f9;
+    margin-top: 85px;
+}
+.about-section .content{
+    text-align: center;
+}
+.about-section .content h1{
+    font-size: 38px;
+    text-align: center;
+    color: #2d3950;
+    word-spacing: 5px;
+}
+.about-section .content h2{
+    font-size: 42px;
+    text-align: center;
+    color: #fdb347;
+    word-spacing: 5px;
+    text-shadow: -2px 1px 1px rgb(13 13 13);
+    padding-top: 10px;
+}
+.about-section .content p{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 28px;
+    color: #999;
+    line-height: 30px;
+}
+/* about section end */
+.scroll-button{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 40px;
+    height: 40px;
+    line-height: 40px;
+	background-color: #4c535a;
+	color: #fff;
+	border: none;
+	border-radius: 2px;
+	text-transform: capitalize;
+	cursor: pointer;
+	z-index: 9;
+    font-size: 22px;
+    border-radius: 50%;
+}
+/*scroll button end */
+.mangement-section{
+    text-align: center;
+    margin-top: 50px;
+}
+.mangement-section .main-content{
+    width: 100%;
+}
+.mangement-section .main-content a{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    line-height: 50px;
+    text-decoration: none;
+    transition: ease-in-out;
+}
+.mangement-section .main-content a button{
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border: 3px solid #04aa6d;
+    border-bottom: 1px solid #04aa6d;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.mangement-section .main-content a:hover{
+    background: #ededed;
+}
+
+.mangement-section .main-content a .dark{
+    background: #000;
+    color: #fff;
+}
+/* management section end */
+.click-image {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.click-image .main-column {
+    text-align: center;
+}
+.click-image .main-column img{
+    width: 50%;
+}
+/* clikc image section end */
+.agent-content-section{
+    padding-bottom: 20px;
+}
+.agent-content-section .main-content{
+    background-color: #393939;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.agent-content-section .main-content .header-content{
+    background-color: #292929;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    padding-left: 50px;
+}
+.agent-content-section .main-content .header-content h2{
+    font-size: 28px;
+    font-weight: 400;
+
+}
+.agent-content-section .main-content .body-content {
+    padding: 30px;
+    text-align: center;
+}
+.agent-content-section .main-content .body-content .content{
+   max-width: 50%;
+   margin: 0 auto;
+   padding: 10px;
+   background-color: #f6f9f9;
+   border: 1px solid #f93;
+}
+.agent-content-section .main-content .body-content .content table{
+    width: 100%;
+    text-align: center;
+}
+.agent-content-section.main-content .body-content .content table td{
+    font-size: 14px;
+}
+.agent-content-section .main-content .body-content .content table a:hover{
+    color: #f93;
+}
+.agent-content-section .main-content .body-content .content table a i{
+    font-size: 26px;
+    color: #04aa6d;
+}
+.agent-content-section .main-content .body-content .bangla-content{
+    padding: 10px;
+    background-color: #f6f9f9;
+    border: 1px solid #f93;
+}
+.agent-content-section .main-content .body-content .bangla-content p{
+    font-size: 16px;
+    color: #000;
+    line-height: 30px;
+}
+.agent-content-section .main-content .body-content .bangla-content a{
+    font-size: 16px;
+}
+.agent-content-section .main-content .body-content .bangla-content a:hover{
+    color: #f93;
+}
+.agent-content-section .main-content .body-content .bangla-content .first-content{
+    margin: 5px 0px;
+}
+.agent-content-section .main-content .body-content .bangla-content .last-content{
+    margin-top: 20px;
+}
+.agent-content-section .main-content .body-content .data .column b{
+    font-size: 16px;
+}
+.agent-content-section .main-content .body-content .data tr td{
+    padding: none !important;
+}
+/* agent content section end */
+.footer-section{
+    background-color: #2a2a40;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-section .main-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.footer-section .main-column .left-content{
+   text-align: left;
+}
+.footer-section .main-column .left-content p{
+    font-size: 16px;
+    color: #fff;
+}
+.footer-section .main-column .icon{
+    text-align: right;
+}
+.footer-section .main-column .icon ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #15a4fa;
+    cursor: pointer;
+    text-align: center;
+    transition: .4s ease-in-out;
+}
+.footer-section .main-column ul li a i{
+    color: #fff;
+}
+.footer-section .main-column ul li:hover{
+    background: green;
+}
+/* footer section end */
+
+/* admin list page design start */
+.admin-list{
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.admin-list .main-list .header{
+    text-align: center;
+}
+.admin-list .main-list .header h2{
+    font-size: 26px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.admin-list .main-list .list-item .admin-list-table{
+    width: 100%;
+}
+.admin-list .main-list .list-item .admin-list-table,th,td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+.admin-list .main-list .list-item .admin-list-table th,td{
+    text-align: left;
+    padding: 15px 10px;
+    font-size: 16px;
+    color: #000;
+    text-transform: capitalize;
+}
+.admin-list .main-list .list-item .admin-list-table td a i{
+    font-size: 24px;
+    color: #04aa6d;
+}
+.admin-list .main-list .list-item .admin-list-tablee th{
+    background-color: #04aa6d;
+    color: #fff;
+}
+.admin-list .main-list .list-item .admin-list-table tbody tr{
+    background-color: #f2f2f2;
+    transition: .4s ease-in-out;
+}
+.admin-list .main-list .list-item .admin-list-table tbody tr:hover{
+    background: #aaa6;
+}
+.admin-list .main-list .list-item .admin-list-table td a:hover{
+    color: #f93;
+}
+/* admin list page desing end */
+
+/* customer seeking help section start */
+.cusotomer-seeking-help{
+    padding: 80px 0;
+    background-color: #f6f9f9;
+}
+.cusotomer-seeking-help .main-content{
+    text-align: center;
+}
+.cusotomer-seeking-help .main-content h2{
+    font-size: 24px;
+    color: #000;
+    text-transform: capitalize;
+}
+.cusotomer-seeking-help .main-content .content ul li{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 28px;
+    color: #6e6c6c;
+    line-height: 30px;
+    list-style: none;
+}
+.agent-content-section .main-content .body-content .content .data .column{
+    border: none !important;
+}
+/* customer seeking help section end */
+
+/* resposive design start */
+@media screen and (max-width: 1200px) {
+    .top-header .navbar .menu-bar {
+        width: 75%;
+        text-align: right;
+    }
+    .top-header .navbar .logo-column {
+        width: 25%;
+        margin-right: 0%;
+        text-align: left;
+    }
+}
+@media screen and (max-width: 989px) {
+    .agent-content-section .main-content .body-content .content {
+        max-width: 70%;
+    }
+    .top-header .navbar .menu-bar ul li {
+        font-size: 1.1rem;
+        margin-left: 1.1rem;
+    }
+    .top-header {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .about-section {
+        padding-top: 70px;
+        padding-bottom: 15px; 
+    }
+    .agent-content-section .main-content .header-content {
+        padding-left: 10px;
+    }
+    .cusotomer-seeking-help {
+        padding: 25px 0;
+        background-color: #f6f9f9;
+    }
+    .admin-list {
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .about-section .content h1 {
+        font-size: 20px;
+    }
+    .about-section .content h2 {
+        font-size: 32px;
+        padding-top: 5px;
+    }
+    .about-section .content p {
+        font-size: 16px;
+        padding-top: 20px;
+        line-height: 25px;
+    }
+    .mangement-section .main-content a {
+        width: 24%;
+        line-height: 45px;
+    }
+    .agent-content-section .main-content .header-content h2 {
+        font-size: 16px;
+    }
+    .agent-content-section .main-content .body-content .content {
+        max-width: 100%;
+    }
+    .cusotomer-seeking-help .main-content .content ul li {
+        font-size: 16px;
+        padding-top: 10px;
+        line-height: 30px;
+    }
+    .top-header{
+        position: relative;
+        width: 100%;
+        top: 0;
+    }
+    .about-section {
+        margin-top: 0px;
+    }
+    .top-header .navbar .logo-column{
+        width: 100%;
+        text-align: right;
+    }
+    .top-header .navbar .menu-bar{
+        display: none;
+    }
+    .slicknav_menu{
+        display: block;
+        position: absolute;
+        background: none;
+        top: 10px;
+        left: 0px;
+        z-index: 999;
+    }
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+    .slicknav_btn {
+        background: none !important;
+        position: absolute;
+    }
+    .slicknav_nav {
+        position: relative;
+        top: 63px;
+        background: #2a2a40;
+        left: -20px;
+        height: 100vh;
+        width: 300px;
+    }
+    .slicknav_nav li{
+        font-family: "Roboto";
+        font-size: 16px;
+        text-transform: capitalize;
+        margin-left: 15px;
+        line-height: 20px;
+    }
+    .slicknav_menu .slicknav_icon {
+        display: none;
+    }
+    .slicknav_collapsed::after{
+        content: '\f0c9';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        font-size: 24px;
+        color: #ffffff;
+        font-family: fontawesome;
+    }
+    .slicknav_open::before{
+        content: '\f00d';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        font-size: 24px;
+        color: #ffffff;
+        font-family: fontawesome;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .click-image .main-column img {
+        width: 76%;
+        height: 60px;
+    }
+    .agent-content-section .main-content .body-content .data .column b {
+        font-size: 12px;
+    }
+    .agent-content-section .main-content .body-content {
+        padding: 15px;
+    }
+    .agent-content-section .main-content .body-content .bangla-content p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .footer-section .main-column {
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+    .footer-section .main-column .left-content {
+        text-align: center;
+    }
+    .footer-section .main-column .icon{
+        text-align: center;
+    }
+    .admin-list .main-list .list-item .admin-list-table th, td {
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+    .admin-list {
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+    .cusotomer-seeking-help .main-content h2 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .mangement-section .main-content a button {
+        width: 100%;
+        height: 38px;
+        font-size: 7px;
+    }
+    .mangement-section {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .cusotomer-seeking-help {
+        padding: 25px 0;
+        background-color: #f6f9f9;
+    }
+    .cusotomer-seeking-help .main-content .content ul li {
+        font-size: 14px;
+        padding-top: 10px;
+        line-height: 25px;
+    }
+    .agent-content-section .main-content .body-content .data .column b {
+        font-size: 10px;
+    }
+}
+
+/* resposive design end */
